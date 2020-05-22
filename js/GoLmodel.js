@@ -137,19 +137,19 @@ class GoLmodel{
         // this.stringRules.set('bustle', 'NW2 NN1 NE2 WW1 CE0 EE1 SW2 SS1 SE2 HI4 S2 S4 S5 S7 B3 SP1 PC2') //meh
         // this.stringRules.set('midges','NW2 NN2 NE2 WW1 CE0 EE1 SW2 SS1 SE2 HI9 S0 S2 S3 B4 B5 B6 PC1')
         // this.stringRules.set('cyclones','NW1 NN1 NE0 WW1 ME0 EE1 SW0 SS1 SE1 HI5 S2 S4 S5 B2 B3 B4 B5 B6 PC10') //meh
-        // this.stringRules.set('cyclish','NW0 NN1 NE0 WW1 CE0 EE1 SW0 SS1 SE0 HI7 S2 B1 B2 B3 PC50') 
+        this.stringRules.set('cyclish','NW0 NN1 NE0 WW1 CE0 EE1 SW0 SS1 SE0 HI7 S2 B1 B2 B3 PC50') 
         this.stringRules.set('bloomerang','NW1 NN1 NE1 WW1 CE0 EE1 SW1 SS1 SE1 HI24 s2 s3 s4 b3 b4 b6 b7 b8 rg7 pc10 sp10') 
-        // this.stringRules.set('bombers','NW1 NN1 NE1 WW1 CE0 EE1 SW1 SS1 SE1 HI25 s3 s4 s5 b2 b4 sh75 rg3 sp10 pc5') //doest fill screen enough 
-        // this.stringRules.set('meteor_gun','NW1 NN1 NE1 WW1 CE0 EE1 SW1 SS1 SE1 HI8 s0 s1 s2 s4 s5 s6 s7 s8 b3 rg10 p12') 
-        // this.stringRules.set('xtasy','NW1 NN1 NE1 WW1 CE0 EE1 SW1 SS1 SE1 HI16 s1 s4 s5 s6 b2 b3 b5 b6 rg5 pc2') 
-        // this.stringRules.set('ortho','NW1 NN1 NE1 WW1 CE0 EE1 SW1 SS1 SE1 HI4 s3 b2 pc2 rg100') 
-        // this.stringRules.set('cooties','NW1 NN1 NE1 WW1 CE0 EE1 SW1 SS1 SE1 HI8 s2 s3 b2 pc15') 
-        // this.stringRules.set('fireworks','NW1 NN1 NE1 WW1 CE0 EE1 SW1 SS1 SE1 HI21 s2 b1 b3 PC70 SP10 RG5') 
-        // this.stringRules.set('wanderers','NW1 NN1 NE1 WW1 CE0 EE1 SW1 SS1 SE1 HI5 s3 s4 s5 b3 b4 b6 b7 b8 pc15') 
-        // this.stringRules.set('navaho','NW4 NN1 NE4 WW5 CE7 EE5 SW4 SS1 SE4 HI12 S8 S9 S11 B2 B5 rg10') 
-        // this.stringRules.set('stampede','NW1 NN3 NE0 WW3 CE0 EE3 SW1 SS3 SE0 HI8 S4 S6 S9 S10 B4 B7 PC10')
-        // this.stringRules.set('walled_cities', 'NW1 NN1 NE1 WW1 CE0 EE1 SW1 SS1 SE1 HI0 S2 S3 S4 S5 B2 B5 B6 B7 B8 RG100 PC10')
-        // this.stringRules.set('frost', 'NW0 NN1 NE0 WW1 CE0 EE1 SW0 SS1 SE0 HI25 B1 RG5 SP50 PC1')
+        this.stringRules.set('bombers','NW1 NN1 NE1 WW1 CE0 EE1 SW1 SS1 SE1 HI25 s3 s4 s5 b2 b4 sh75 rg3 sp10 pc5') //doest fill screen enough 
+        this.stringRules.set('meteor_gun','NW1 NN1 NE1 WW1 CE0 EE1 SW1 SS1 SE1 HI8 s0 s1 s2 s4 s5 s6 s7 s8 b3 rg10 p12') 
+        this.stringRules.set('xtasy','NW1 NN1 NE1 WW1 CE0 EE1 SW1 SS1 SE1 HI16 s1 s4 s5 s6 b2 b3 b5 b6 rg5 pc2') 
+        this.stringRules.set('ortho','NW1 NN1 NE1 WW1 CE0 EE1 SW1 SS1 SE1 HI4 s3 b2 pc2 rg100') 
+        this.stringRules.set('cooties','NW1 NN1 NE1 WW1 CE0 EE1 SW1 SS1 SE1 HI8 s2 s3 b2 pc15') 
+        this.stringRules.set('fireworks','NW1 NN1 NE1 WW1 CE0 EE1 SW1 SS1 SE1 HI21 s2 b1 b3 PC70 SP10 RG5') 
+        this.stringRules.set('wanderers','NW1 NN1 NE1 WW1 CE0 EE1 SW1 SS1 SE1 HI5 s3 s4 s5 b3 b4 b6 b7 b8 pc15') 
+        this.stringRules.set('navaho','NW4 NN1 NE4 WW5 CE7 EE5 SW4 SS1 SE4 HI12 S8 S9 S11 B2 B5 rg10') 
+        this.stringRules.set('stampede','NW1 NN3 NE0 WW3 CE0 EE3 SW1 SS3 SE0 HI8 S4 S6 S9 S10 B4 B7 PC10')
+        this.stringRules.set('walled_cities', 'NW1 NN1 NE1 WW1 CE0 EE1 SW1 SS1 SE1 HI0 S2 S3 S4 S5 B2 B5 B6 B7 B8 RG100 PC10')
+        this.stringRules.set('frost', 'NW0 NN1 NE0 WW1 CE0 EE1 SW0 SS1 SE0 HI25 B1 RG5 SP50 PC1')
 
     }
 }
