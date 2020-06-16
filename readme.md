@@ -1,6 +1,9 @@
-Same as my other project Conway GOL weighted
+# Conway's Game of Life + Mirek's Celebration
+## Largely inspired from Mirek's celebration of GoL
 
-Largely inspired from Mirek's celebration of GoL : http://psoup.math.wisc.edu/mcell/rullex_life.html
-This is an implementation of Weighted Life (enhanced game of life). 
+link to Mirek : http://psoup.math.wisc.edu/mcell/rullex_life.html
 
-The code is mine. Mirek also offers an older java version, which I looked at.
+This is an implementation of Weighted Life (enhanced game of life) in Javascript. Mirek offers a Java version available on its website. The rules are however compatible (most of them) with this emulation.
+
+![Imgur](https://i.imgur.com/L5PRBdh.gif)
+![gol4](https://i.imgur.com/ARUwFkm.gif)
